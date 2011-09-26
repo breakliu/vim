@@ -27,7 +27,7 @@ set autoindent shiftwidth=4
 filetype plugin indent on
 
 "关闭自动备份
-set nobackup
+"set nobackup
 
 " 把 F8 映射到 启动NERDTree插件
 map <F8> :NERDTree<CR>
