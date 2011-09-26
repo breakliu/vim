@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/etc/php'
+let g:netrw_dirhist_2='/usr/lib/ruby/gems/1.9.1/gems/rails_kindeditor-0.1.1/lib/rails_kindeditor'
+let g:netrw_dirhist_3='/root/.vim'
