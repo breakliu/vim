@@ -1,17 +1,12 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-
-
-
 if has("gui_running")
     colorscheme molokai
     let g:molokai_original = 1
 else
     colorscheme desert
 endif
-
-
 
 set expandtab
 
