@@ -1,10 +1,21 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-colorscheme desert
+
+
+
+if has("gui_running")
+    colorscheme molokai
+    let g:molokai_original = 1
+else
+    colorscheme desert
+endif
+
+
+
 set expandtab
 
-"set guifont=Monaco\ 11
+set guifont=Monaco\ 11
 set guifontwide=WenQuanYi\ Zen\ Hei:h12:cGBK
 " 设定文件浏览器目录为当前目录
 set bsdir=buffer
@@ -37,4 +48,3 @@ imap <C-S> <C-C>:w<CR>
 " Tagbar
 let g:tagbar_usearrows = 1
 nnoremap <leader>l :TagbarToggle<CR>
-
